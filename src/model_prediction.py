@@ -30,11 +30,10 @@ def model_prediction():
 
         with st.spinner("Please wait..."):
             if review and predict_btn:
-                time.sleep(2)
                 prediction = loaded_model.predict([review])
                 prediction = np.squeeze(prediction)
 
-                if prediction < 0.5:
+                if prediction <= 0.5:
                     st.error('You have given negative feedback for the film.')
                 else:
                     st.success("You have given positive feedback for the film.")

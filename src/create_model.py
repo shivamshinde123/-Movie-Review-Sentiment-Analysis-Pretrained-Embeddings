@@ -60,7 +60,7 @@ class ModelCreation:
 
             hub_layer = DataEncoding().create_embedding_layer()
             classifier_head = Sequential(
-             [hub_layer, 
+             [hub_layer,
              Dense(16, activation='relu'), 
              Dense(32, activation='relu'), 
              Dense(16, activation='relu'), 
@@ -103,6 +103,9 @@ class ModelCreation:
                 os.makedirs('Plots')
             if not os.path.exists('Logs'):
                 os.makedirs('Models')
+            if not os.path.exists('Raw_data'):
+                os.makedirs('Raw_data')
+                
             model  = self.create_classifier()
 
             logger.info('Tensorflow sequential model for sentiment analysis created.')
