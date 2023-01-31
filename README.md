@@ -9,6 +9,14 @@
 # Problem Statement:
 The aim of the project is to determine whether a provided review for a movie is positive or negative.
 
+# Project Demonstration
+
+Check out the project demo at https://youtu.be/zZ86BF3M_oU
+
+# Data used
+
+Get the from https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
+
 # Project Flow
 
 ![image](https://user-images.githubusercontent.com/54674972/215792679-6bbd56c5-c534-4a34-85ad-11815c19c6a9.png)
@@ -19,14 +27,6 @@ The aim of the project is to determine whether a provided review for a movie is 
 
 # Python Libraries and tools Used
 <img src="http://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=FFFFFF"> <img src = "https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white"> <img src = "https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="http://img.shields.io/badge/-sklearn-F7931E?style=flat&logo=scikit-learn&logoColor=FFFFFF"> <img src = "https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat&logo=Tensorflow&logoColor=white"> <img src = "https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white">
-
-# Data used
-
-Get the from https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
-
-# Project Demonstration
-
-Check out the project demo at https://youtu.be/zZ86BF3M_oU
 
 ## Run Locally
 
