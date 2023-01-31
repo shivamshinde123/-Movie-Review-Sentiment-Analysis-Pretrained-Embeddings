@@ -18,7 +18,64 @@ The aim of the project is to determine whether a provided review for a movie is 
 
 
 # Python Libraries and tools Used
-<img src="http://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=FFFFFF"> <img src = "https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white"> <img src = "https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="http://img.shields.io/badge/-sklearn-F7931E?style=flat&logo=scikit-learn&logoColor=FFFFFF"> <img src = "https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat&logo=Tensorflow&logoColor=white">
+<img src="http://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=FFFFFF"> <img src = "https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white"> <img src = "https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white"> <img src="http://img.shields.io/badge/-sklearn-F7931E?style=flat&logo=scikit-learn&logoColor=FFFFFF"> <img src = "https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat&logo=Tensorflow&logoColor=white"> <img src = "https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=Streamlit&logoColor=white">
 
-# Screenshots
+# Data used
 
+Get the from https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
+
+# Project Demonstration
+
+Check out the project demo at https://youtu.be/zZ86BF3M_oU
+
+## Run Locally
+
+Clone the project
+
+```bash
+    git clone https://github.com/shivamshinde123/Movie-Review-Sentiment-Analysis-approach-2.git
+```
+
+Go to the project directory
+
+```bash
+    cd project-name
+```
+
+Create a conda environment
+
+```bash
+    conda create -n environment_name python=3.10
+```
+
+Activate the created conda environment
+
+```bash
+    conda activate environment_name
+```
+
+Install dependencies
+
+```bash
+  pip install requirements.txt
+```
+
+Train the sentiment analysis model
+
+```bash
+  python src/create_model.py
+```
+Predict new reviews using trained model
+
+```bash
+  streamlit run model_prediction.py
+```
+
+## 🚀 About Me
+I'm an aspiring data scientist and a data analyst.
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://shivamdshinde.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivamds92722/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://www.twitter.com/ShivamS64852411)
