@@ -60,6 +60,12 @@ Install dependencies
   pip install requirements.txt
 ```
 
+Download training data from 
+
+```bash
+  https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
+```
+
 Train the sentiment analysis model
 
 ```bash
