@@ -1,0 +1,7 @@
+2023-01-31 14:36:19,973 : INFO : create_model.py : Classifier head created.
+2023-01-31 14:36:19,982 : INFO : create_model.py : Tensorflow sequential model for sentiment analysis created.
+2023-01-31 14:36:20,084 : INFO : create_model.py : Tensorflow sequential model for sentiment analysis compiled.
+2023-01-31 14:36:20,124 : INFO : create_model.py : Model summary saved.
+2023-01-31 15:01:13,188 : INFO : create_model.py : Sentiment analysis model trained.
+2023-01-31 15:01:27,607 : INFO : create_model.py : Sentiment analysis trained model saved to a pickle file.
+2023-01-31 15:01:28,865 : INFO : create_model.py : Training over epochs plot saved.

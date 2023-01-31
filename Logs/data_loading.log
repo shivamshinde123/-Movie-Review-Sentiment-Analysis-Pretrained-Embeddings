@@ -1,0 +1,3 @@
+2023-01-31 14:36:38,538 : INFO : get_data.py : Training Data Loaded.
+2023-01-31 14:36:38,542 : INFO : get_data.py : Class names checked.
+2023-01-31 14:36:55,469 : INFO : get_data.py : Validation Data Loaded.

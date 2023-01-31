@@ -1,0 +1,26 @@
+stages:
+  train_model:
+    cmd: python src/create_model.py
+    deps:
+    - src/reading_params.py
+    - params.yaml
+    - src/get_data.py
+    - src/prepare_input_data.py
+    - Raw_data/
+    outs:
+    - Models/
+    - Logs/data_loading.log
+    - Logs/data_encoding.log
+    - Logs/model_creation.log
+    - Metrics/class_names.txt
+    - Metrics/model_summary.txt
+    - Metrics/training_procedure.csv
+    - Plots/Training_over_epochs.png
+  model_evaluation:
+    cmd: python src/evaluate_model.py
+    deps:
+    - Models/
+    - params.yaml
+    - src/reading_params.py
+    outs:
+    - Metrics/test_data_evaluation.json
