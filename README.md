@@ -15,7 +15,7 @@ Check out the project demo at https://youtu.be/zZ86BF3M_oU
 
 # Data used
 
-Get the from https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
+Get the data from https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
 
 # Project Flow
 
