@@ -60,7 +60,7 @@ class DataEncoding:
 
         try:
             embedding = "https://tfhub.dev/google/nnlm-en-dim50/2"
-            hub_layer = hub.KerasLayer(embedding, input_shape=[], dtype=tf.string, trainable=True)
+            hub_layer = hub.KerasLayer(embedding, input_shape=[], output_shape=[50], dtype=tf.string)
 
             logger.info('Imported pretrained embeddings for the input integer encoded data.')
 

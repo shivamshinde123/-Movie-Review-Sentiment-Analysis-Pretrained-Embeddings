@@ -1,4 +1,4 @@
-import logging, yaml
+import logging, yaml, os
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -94,6 +94,15 @@ class ModelCreation:
         """
 
         try:
+
+            if not os.path.exists('Models'):
+                os.makedirs('Models')
+            if not os.path.exists('Metrics'):
+                os.makedirs('Metrics')
+            if not os.path.exists('Plots'):
+                os.makedirs('Plots')
+            if not os.path.exists('Logs'):
+                os.makedirs('Models')
             model  = self.create_classifier()
 
             logger.info('Tensorflow sequential model for sentiment analysis created.')

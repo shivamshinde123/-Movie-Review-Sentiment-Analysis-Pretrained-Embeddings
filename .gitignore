@@ -1,6 +1,7 @@
-# raw_data
 /Raw_data/
 /Models/
+/Logs/
+/Images/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

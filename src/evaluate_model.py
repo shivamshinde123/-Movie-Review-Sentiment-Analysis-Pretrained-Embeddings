@@ -50,7 +50,6 @@ class EvaluateTrainedModel:
             params = ReadParams().read_params()
             model_filepath = params['Model_paths']['model_path']
             loaded_model = None
-            # with custom_object_scope({'custom_standardization': DataEncoding().custom_standardization}):
             loaded_model = load_model(model_filepath)
 
             logger.info('Trained sentiment analysis model loaded.')
