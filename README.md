@@ -11,7 +11,7 @@ The aim of the project is to determine whether a provided review for a movie is 
 
 # Project Demonstration
 
-Check out the project demo at https://youtu.be/zZ86BF3M_oU
+Check out the project demo at https://youtu.be/HXN4PtAdVR0
 
 # Data used
 
