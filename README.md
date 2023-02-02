@@ -57,10 +57,10 @@ Activate the created conda environment
 Install dependencies
 
 ```bash
-  pip install requirements.txt
+  pip install -r requirements.txt
 ```
 
-Download training data from 
+Download training data from below link. Please make sure to save the downloaded data into Raw_data folder. 
 
 ```bash
   https://www.kaggle.com/datasets/shivamshinde123/movie-review-sentiment-analysis
