@@ -33,7 +33,7 @@ Get the data from https://www.kaggle.com/datasets/shivamshinde123/movie-review-s
 Clone the project
 
 ```bash
-    git clone https://github.com/shivamshinde123/Movie-Review-Sentiment-Analysis-approach-2.git
+    git clone https://github.com/shivamshinde123/Movie-Review-Sentiment-Analysis-using-pretrained-embeddings.git
 ```
 
 Go to the project directory
